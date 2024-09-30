@@ -1,0 +1,22 @@
+{
+  "name": "monorepo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "vue:dev": "pnpm -F vue-project dev",
+    "vue:build": "pnpm -F vue-project build",
+    "vue:preview": "pnpm -F vue-project preview",
+    "react:dev": "pnpm -F react-project dev",
+    "react:build": "pnpm -F react-project build",
+    "react:preview": "pnpm -F react-project preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@monorepo-app/common": "workspace:^",
+    "dayjs": "^1.11.13"
+  }
+}

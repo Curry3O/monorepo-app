@@ -1,0 +1,5 @@
+packages:
+  - common # 存放公共方法
+  - docs # 存放组件文档
+  - packages/* # 存放所有子项目
+
